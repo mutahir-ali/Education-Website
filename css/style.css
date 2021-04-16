@@ -1,0 +1,317 @@
+:root {
+    --main-bg-color: rgb(17,24,39);
+    --text-color: rgba(82, 90, 117, 0.808);
+    --hover-bg-color: #e5862e;
+}
+
+
+
+
+
+
+
+
+/*NAV BAR SECTION*/
+
+.navbar img{
+    width: 60px;
+    height: 100%;
+}
+
+.navbar{
+    background: var(--main-bg-color);
+}
+
+.nav-icons a{
+    color: #777;
+    margin: 10px;
+  
+    
+}
+
+
+.nav-icons a:hover{
+    color: rgb(161, 161, 161)
+}
+
+
+
+body > nav > form > button {
+    background: rgba(99,101,241);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 1.6rem;
+    text-decoration: none;
+
+}
+
+body > nav > form > button:hover{
+    background: rgba(79,70,229);
+
+}
+
+#dropdownMenuButton{
+    border-color: rgba(119, 119, 119, 0.438);
+    color: white;
+    width: 120px;
+}
+
+body > nav > form > a > i{
+    color: #777;
+    padding: 0.5rem;
+
+}
+
+body > nav > form > a > i:hover{
+    color: rgb(161, 161, 161)
+    
+}
+
+
+
+
+
+
+
+
+/*FIRST SECTION*/
+
+.headersectionn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto auto 50px auto;
+    padding: 32px;
+}
+
+.header-img a img{
+    width: 60px;
+}
+
+.header-signup a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin: 32px;
+}
+
+.header-signup a:hover{
+    color: var(--main-bg-color);
+}
+
+.header-signup button{
+    background: rgb(74,92, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100px;
+    border-radius: 3px;
+}
+
+
+/*main jumpo section*/
+
+
+
+body > section.main-jumpo > div > div > h1{
+    font-weight: 600;
+    color: var(--main-bg-color);
+}
+
+body > section.main-jumpo > div > div > p{
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+body > section.main-jumpo > div > div > button{
+    background: rgb(74,92, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    
+}
+
+
+/*Main Section Image*/
+
+
+
+.main-section-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 50%;
+    box-shadow: 0px 3px 100px -26px rgba(0,0,0,0.75)
+  
+}
+
+
+/*cards section*/
+
+.cards-section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+body > section.cards-section img{
+
+    display: block;
+    margin: auto;
+    width: 100px;
+    
+}
+
+
+.card{
+    border: none;
+}
+
+.cards-section h5{
+    color: var(--main-bg-color);
+    font-size: 1.8rem;
+}
+
+.cards-section p{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+
+/*Sectors*/
+
+.sector1 h2, .sector2 h2, .sector3 h2{
+    color: var(--main-bg-color);
+}
+
+.sector1 p, .sector2 p, .sector3 p{
+    color: var(--text-color);
+    font-weight: 600;
+    font-size:1.2rem;
+}
+
+
+/*Pricing section*/
+
+.pricing-section{
+    color: var(--main-bg-color)
+}
+
+.pricing-section button{
+    background: rgb(74,92, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+
+}
+
+.s-price p{     
+    color:var(--text-color);
+    font-size: 1.4rem;
+    }
+
+
+.bill1{
+    float: right;
+    }
+
+.bill2{
+    float:left;
+}
+
+.card-body{
+    color: var(--text-color);
+}
+
+.card-header p{
+    color: var(--text-color);
+}
+
+
+
+
+
+
+/*carousel section*/
+
+#carousel-section{
+    background: rgb(116, 116, 116);
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#carousel-section img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    
+}
+
+.carousel-caption img{
+    border-radius: 100%;
+}
+
+
+/*Get started*/
+
+.get-started{
+    
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+    box-shadow: 0px 3px 100px -26px rgba(0,0,0,0.95);
+    background-image: url(/imgs/business-women-signature-document.jpg);
+    background-size: cover;
+
+}
+
+body > section.get-started > div > div > h1{
+    font-weight: 600;
+    color: white;
+}
+
+.get-started p{
+    color: rgba(255, 255, 255, 0.76);
+    font-weight: 600;
+}
+
+body > section.get-started > div > div > button{
+    background: rgb(74,92, 255);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ .container-fluid {
+     overflow: hidden;
+     margin-top: 250px;
+     background: var(--main-bg-color);
+     color: #627482 !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
